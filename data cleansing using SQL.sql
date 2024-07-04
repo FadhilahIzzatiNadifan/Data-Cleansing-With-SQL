@@ -35,7 +35,7 @@ SELECT * FROM cleaned2
 select count(1) from cleaned2
 /*output : 7784*/
 
-/* Try to change comp_name to company_name by right-click on cleaned2*/
+/* Try to change comp_name to company_name*/
 /* remove all unwanted spaces from all text columns by using trim*/
 UPDATE cleaned2
 SET id = TRIM(id),
