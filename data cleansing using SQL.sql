@@ -155,7 +155,7 @@ select count(salary) from cleaned2 where salary=0 /*count = 67 equal to number o
 /*2.*/
 Update cleaned2
 set gender = case 
-			 when gender='F' then 'Female'
+	     when gender='F' then 'Female'
              when gender='M' then 'Male'
              else gender
              end
@@ -163,28 +163,28 @@ set gender = case
 Update cleaned2
 set 
 	company_city = case 
-				   when company_city='Gioaniaa' then 'Gioania'
+		   when company_city='Gioaniaa' then 'Gioania'
                    else company_city
                    end
 /*4.*/
 Update cleaned2
 set
 	const_site_category = case
-						  when const_site_category = 'Commerciall' then 'Commercial'
+			  when const_site_category = 'Commerciall' then 'Commercial'
                           else const_site_category
                           end
 /*5.*/
 Update cleaned2
 set
 	company_type = case 
-				   when company_type='Construction Sites' then 'Construction Site'
+		   when company_type='Construction Sites' then 'Construction Site'
                    else company_type
                    end
 /*6.*/
 Update cleaned2
 set
 	company_state = case 
-					when company_state='GOIAS' then 'Goias'
+		    when company_state='GOIAS' then 'Goias'
                     else company_state
                     end
 /*7.*/
