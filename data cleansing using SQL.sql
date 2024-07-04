@@ -1,4 +1,3 @@
-use practice_cleansing
 /*Making a new table*/
 create table practice_cleansing.empfirst as
 (select * from practice_cleansing.salaries as salaries
